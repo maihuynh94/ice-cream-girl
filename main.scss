@@ -114,6 +114,7 @@ body {
     border-right: none;
     border-left: none;
     border-bottom: none;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     @include borderRadius(100px, 100px, 0, 0);
   }
@@ -124,6 +125,7 @@ body {
     border-right: none;
     border-left: none;
     border-bottom: none;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     z-index: 99;
     height: 40px;
